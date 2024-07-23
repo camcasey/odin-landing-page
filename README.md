@@ -1,3 +1,3 @@
-# odin-landing-page
+# Portfolio
 
-A landing page project created for the Odin Project coursework. Will later be converted into a personal portfolio page
+A simple portfolio showcasing my programming and game dev experience, created by hand while learning web development.
