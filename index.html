@@ -1,108 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cameron Casey Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
   <div class="header">
-    <!-- <img src="./logo.png" alt="Header Logo"> -->
-    <div class="logo">Header Logo</div>
+    <div class="logo">
+      <img src="images/logo3.png" alt="Header Logo">
+    </div>
     <ul class="links">
-      <li><a href="https://google.com">link-one</a></li>
-      <li><a href="https://google.com">link-two</a></li>
-      <li><a href="https://google.com">link-three</a></li>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 
-  <div class="intro">
+  <div class="intro" id="intro">
     <div class="bio">
-      <h1>This is a website.</h1>
+      <h1>Hello! I'm Cam Casey</h1>
       <p>This is some random text that goes here under the main title. 
         It doesn't mean anything right now, and is just some filler content.</p>
-      <button>Button Text</button>
     </div>
     <div class="images">
-      <img src="images/placeholder.png" alt="Description of the image">
+      <img src="images/main.jpg" alt="Me with a monkey.">
     </div>
   </div>
 
-  <div class="body">
-    <h2>Some random information.</h2>
+  <div class="body" id="projects">
+    <h2>Some of my Unity Projects</h2>
     <div class="projects">
       <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
+        <a href="fish-race.html">
+          <img src="images/fish.png" alt="Fish Race image">
+        </a>
+        <p>A prototype of a fish race in a handcrafted aquatic environment.
+          Created for a contract with Common Valley Gaming.
+        </p>
       </div>
-
       <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
+        <a href="code-wizard.html">
+          <img src="images/code-wizard.png" alt="--image--">
+        </a>
+        <p>My senior project. A puzzle game inspired by Baba Is You where the
+          player can manipulate how the objects in the game function.  
+        </p>
       </div>
-
       <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
+        <a href="l4d2-prototype.html">
+          <img src="images/ak.png" alt="Untitled L4D2 prototype">
+        </a>
+        <p>Currently prototyping a L4D2 inspired FPS game.
+          Inspired by my favorite features of other games and ridiculous ragdolls.
+        </p>
       </div>
-
-      <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
-      </div>
-    </div>
-    <div class="projects">
-      <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
-      </div>
-
-      <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
-      </div>
-
-      <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
-      </div>
-
-      <div class="card">
-        <img src="images/placeholder.png" alt="--image--">
-        <p>image summary</p>
-      </div>
+      
+      <!-- Repeat project cards as needed -->
     </div>
   </div>
 
   <div class="outro">
-    <p class="quote">Some random quote by some dude.
-      Soccmcde rcasdandom quote byasddfciscc some dude.
-      Some random quocasdfsccte by sosdafsacaasdme dude.
-      cSodcame rasccasdsdcandom qufasdfote by some dude.
-      Soacme random fd by some dude.
-      Some randcasdccdom qasdfote bycdas some dude.
-    </p>
-    <p class="author">-Thor, God of Thunder</p>
+    <p class="quote">It is hard to fail, but it is worse never to have tried to succeed.</p>
+    <p class="author">-Theodore Roosevelt</p>
   </div>
 
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="contactbox">
       <div class="info">
         <h3>Sign up for our newsletter! not really.</h3>
         <p>Go ahead and click that button. It's right over there!</p>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="signup">Sign up</button>
+        </form>
       </div>
-      <button class="signup">Sign up</button>
     </div>
   </div>
 
   <div class="footer">
-    <p>The Odin Project</p>
+    <p>Have a great day!</p>
   </div>
-
 </body>
-
 </html>
