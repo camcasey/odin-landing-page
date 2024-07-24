@@ -49,11 +49,13 @@ body {
     padding-bottom: 64px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .bio {
     color: white;
     flex: 1;
+    
 }
 
 .images {
@@ -85,6 +87,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -97,7 +100,7 @@ button {
     font-size: 16px;
     padding: 16px;
     margin: 16px;
-    flex-wrap: wrap;
+    
 }
 
 .card img {
