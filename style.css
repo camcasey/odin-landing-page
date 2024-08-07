@@ -21,6 +21,7 @@ body {
     width: 96px;
     margin: 0;
     padding: 0;
+    flex-shrink: 1;
 }
 
 .logo {
@@ -55,7 +56,7 @@ body {
 .bio {
     color: white;
     flex: 1;
-    
+
 }
 
 .images {
